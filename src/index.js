@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 //  import App from "./fakestoreApi/App";
 // import Products from "./dummyApi/Products"
-import Practise from "./dummyApi/Practise"
+// import Practise from "./dummyApi/Practise"
+import Form from "./FormHandling/Form"
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Practise/>
+    <Form/>
   </React.StrictMode>
 );
 
